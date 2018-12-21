@@ -24,7 +24,7 @@ module.exports.routes = {
     'PUT /api/v1/user/update/:userId': { action: 'api/user/update' },
     'GET /api/v1/user': { action: 'api/user/index' },
     'DELETE /api/v1/user/:userId': { action: 'api/user/delete' },
-
+    'POST /api/v1/send-sms': { action: 'send-sms' },
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
