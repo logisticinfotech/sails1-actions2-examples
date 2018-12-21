@@ -7,9 +7,9 @@ module.exports = {
   models: {},
 
   //   /****** twilio ******/
-  twilioSid: "ACd2b02c70b2ab5f5727ae24f81e357212",
-  twilioauthToken: "a8a0a122a5cf2c6dac21c4c399e8a1d0",
-  twiliomobilenumber: "+15393027910",
+  twilioSid: "xxx",
+  twilioauthToken: "xxx",
+  twiliomobilenumber: "xxx",
 
   url: {
     appURL: "http://localhost:1337",
