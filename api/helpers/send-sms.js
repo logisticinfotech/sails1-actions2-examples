@@ -39,15 +39,19 @@ module.exports = {
           data: message
         });
       } else if (err) {
-        return exits.success({
+        var err = new Error({
+          type: 'Twilio',
           status: false,
           message: err.message
         });
+        return exits.error(err);
       } else {
-        return exits.success({
+        var err = new Error({
+          type: 'Twilio',
           status: false,
           message: "Twillio Error"
         });
+        return exits.error(err);
       }
     });
   }
