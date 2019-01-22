@@ -1,3 +1,8 @@
+# Introduction
+This blog is for Sails JS actions2 examples with crud and helper function, this includes how to use GET POST PUT DELETE with actions2. Example of exits and intercept is included.
+
+you can check [this blog](https://www.logisticinfotech.com/blog/sails-js-actions2-example-with-crud/) for step by step explaination.
+
 # Steps
 ### Install sails js globally
 [npm install sails -g](https://sailsjs.com/get-started)
